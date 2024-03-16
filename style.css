@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(245,225,218);
+}
+h1{
+    color: white;
+    background-color: maroon;
+    padding: 20px;
+    margin-left: auto;
+    
+}
+
+.introduction{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(194, 58, 58);
+    margin-right: 20rem;
+    margin-left:auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+ .contact{
+    background-color: maroon;
+    color: black;
+    padding: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;               
+}
+
+.container{
+    border: 3px solid;
+    border-color: rgb(192, 101, 36);
+    background-color: rgb(238, 115, 115);
+    margin-left: auto;
+    margin-right: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: navy;
+    padding: 20px;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .content {
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
